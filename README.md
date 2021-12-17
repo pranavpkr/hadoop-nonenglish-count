@@ -31,7 +31,7 @@ Song3 45
 #### Run mapper and reducer by specifying input and output path
 ##### Make sure to delete ouput directory from hdfs if its already present
 ```
-hadoop jar D:\Study\BigData\hadoop-streaming-3.3.1.jar -input  /songs -mapper "python D:\Study\BigData\Project\mapper.py" -reducer "python D:\Study\BigData\Project\reducer.py" -output /output/
+hadoop jar D:\hadoop-streaming-3.3.1.jar -input  /songs -mapper "python D:\mapper.py" -reducer "python D:\reducer.py" -output /output/
 ```
 
 #### Check output
