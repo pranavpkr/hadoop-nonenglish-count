@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Dec  5 23:45:07 2021
-
 @author: pranav
 """
 
@@ -13,7 +11,7 @@ previouskey = None
 for line in sys.stdin:
     # get key and english flag in data array
     data = line.split()
-    # separate filename from composite key of filename & word
+    #get key from input
     key = data[0]
 
     # if new file words start output previous files
