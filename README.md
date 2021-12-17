@@ -1,4 +1,4 @@
-# hadoop-nonenglish-count
+# Hadoop Non-English Words Count per file
 
 ## The comprehensive guide to run mapreduce algorithm written in python on hadoop environment
 
